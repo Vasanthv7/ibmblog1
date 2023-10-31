@@ -1,0 +1,18 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'papermod'
+ [menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+[params]
+    ShowShareButtons = true
